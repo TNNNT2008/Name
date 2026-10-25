@@ -1,0 +1,796 @@
+
+local G2L = {};
+
+-- StarterGui.Kaka
+G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["1"]["Name"] = [[Kaka]];
+G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+
+-- StarterGui.Kaka.ImageLabel
+G2L["2"] = Instance.new("ImageLabel", G2L["1"]);
+G2L["2"]["BorderSizePixel"] = 0;
+G2L["2"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2"]["ImageTransparency"] = 0.85;
+G2L["2"]["ImageColor3"] = Color3.fromRGB(132, 132, 132);
+G2L["2"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["2"]["Size"] = UDim2.new(0, 341, 0, 247);
+G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2"]["BackgroundTransparency"] = 0.5;
+G2L["2"]["Position"] = UDim2.new(0.27333, 0, 0.5, 0);
+
+
+-- StarterGui.Kaka.ImageLabel.LocalScript
+G2L["3"] = Instance.new("LocalScript", G2L["2"]);
+
+
+
+-- StarterGui.Kaka.ImageLabel.UIDragDetector
+G2L["4"] = Instance.new("UIDragDetector", G2L["2"]);
+
+
+
+-- StarterGui.Kaka.ImageLabel.UICorner
+G2L["5"] = Instance.new("UICorner", G2L["2"]);
+
+
+
+-- StarterGui.Kaka.ImageLabel.Frame
+G2L["6"] = Instance.new("Frame", G2L["2"]);
+G2L["6"]["BorderSizePixel"] = 0;
+G2L["6"]["BackgroundColor3"] = Color3.fromRGB(59, 0, 2);
+G2L["6"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["6"]["Size"] = UDim2.new(0.99829, 0, 0.12146, 0);
+G2L["6"]["Position"] = UDim2.new(0.49914, 0, 0.05668, 0);
+G2L["6"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
+G2L["6"]["BackgroundTransparency"] = 0.4;
+
+
+-- StarterGui.Kaka.ImageLabel.Frame.UICorner
+G2L["7"] = Instance.new("UICorner", G2L["6"]);
+
+
+
+-- StarterGui.Kaka.ImageLabel.Frame.UIAspectRatioConstraint
+G2L["8"] = Instance.new("UIAspectRatioConstraint", G2L["6"]);
+G2L["8"]["AspectRatio"] = 10.73333;
+
+
+-- StarterGui.Kaka.ImageLabel.Break
+G2L["9"] = Instance.new("TextButton", G2L["2"]);
+G2L["9"]["BorderSizePixel"] = 0;
+G2L["9"]["TextSize"] = 14;
+G2L["9"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["9"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["9"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["9"]["BackgroundTransparency"] = 0.1;
+G2L["9"]["Size"] = UDim2.new(0, 40, 0, 28);
+G2L["9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9"]["Text"] = [[X]];
+G2L["9"]["Name"] = [[Break]];
+G2L["9"]["Position"] = UDim2.new(0.93628, 0, 0.05263, 0);
+
+
+-- StarterGui.Kaka.ImageLabel.Break.LocalScript
+G2L["a"] = Instance.new("LocalScript", G2L["9"]);
+
+
+
+-- StarterGui.Kaka.ImageLabel.Break.UICorner
+G2L["b"] = Instance.new("UICorner", G2L["9"]);
+G2L["b"]["CornerRadius"] = UDim.new(0, 0);
+
+
+-- StarterGui.Kaka.ImageLabel.Break.UIAspectRatioConstraint
+G2L["c"] = Instance.new("UIAspectRatioConstraint", G2L["9"]);
+G2L["c"]["AspectRatio"] = 1.42857;
+
+
+-- StarterGui.Kaka.ImageLabel.Break.Frame
+G2L["d"] = Instance.new("Frame", G2L["9"]);
+G2L["d"]["Visible"] = false;
+G2L["d"]["BorderSizePixel"] = 0;
+G2L["d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d"]["Size"] = UDim2.new(1.196, 0, 0.534, 0);
+G2L["d"]["Position"] = UDim2.new(-0.52804, 0, 0.85776, 0);
+G2L["d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- StarterGui.Kaka.ImageLabel.Break.Frame.D
+G2L["e"] = Instance.new("TextLabel", G2L["d"]);
+G2L["e"]["TextWrapped"] = true;
+G2L["e"]["BorderSizePixel"] = 0;
+G2L["e"]["TextSize"] = 14;
+G2L["e"]["TextScaled"] = true;
+G2L["e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["e"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e"]["Text"] = [[Оно идёт]];
+G2L["e"]["Name"] = [[D]];
+G2L["e"]["Position"] = UDim2.new(0.38725, 0, 0.48586, 0);
+
+
+-- StarterGui.Kaka.ImageLabel.Break.Frame.N
+G2L["f"] = Instance.new("TextLabel", G2L["d"]);
+G2L["f"]["TextWrapped"] = true;
+G2L["f"]["BorderSizePixel"] = 0;
+G2L["f"]["TextSize"] = 14;
+G2L["f"]["TextScaled"] = true;
+G2L["f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["f"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f"]["Text"] = [[Это бабаба]];
+G2L["f"]["Name"] = [[N]];
+G2L["f"]["Position"] = UDim2.new(0.38725, 0, -0.00909, 0);
+
+
+-- StarterGui.Kaka.ImageLabel.Break.Frame.ImageLabel
+G2L["10"] = Instance.new("ImageLabel", G2L["d"]);
+G2L["10"]["BorderSizePixel"] = 0;
+G2L["10"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["10"]["Image"] = [[rbxassetid://10642754311]];
+G2L["10"]["Size"] = UDim2.new(0, 100, 0, 100);
+G2L["10"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["10"]["Position"] = UDim2.new(0.03963, 0, 0, 0);
+
+
+-- StarterGui.Kaka.ImageLabel.Close
+G2L["11"] = Instance.new("TextButton", G2L["2"]);
+G2L["11"]["BorderSizePixel"] = 0;
+G2L["11"]["TextSize"] = 14;
+G2L["11"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["11"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["11"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["11"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["11"]["BackgroundTransparency"] = 0.1;
+G2L["11"]["Size"] = UDim2.new(0, 40, 0, 28);
+G2L["11"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["11"]["Text"] = [[_]];
+G2L["11"]["Name"] = [[Close]];
+G2L["11"]["Position"] = UDim2.new(0.81227, 0, 0.05263, 0);
+
+
+-- StarterGui.Kaka.ImageLabel.Close.LocalScript
+G2L["12"] = Instance.new("LocalScript", G2L["11"]);
+
+
+
+-- StarterGui.Kaka.ImageLabel.Close.UICorner
+G2L["13"] = Instance.new("UICorner", G2L["11"]);
+G2L["13"]["CornerRadius"] = UDim.new(0, 2);
+
+
+-- StarterGui.Kaka.ImageLabel.Close.UIAspectRatioConstraint
+G2L["14"] = Instance.new("UIAspectRatioConstraint", G2L["11"]);
+G2L["14"]["AspectRatio"] = 1.42857;
+
+
+-- StarterGui.Kaka.ImageLabel.UIAspectRatioConstraint
+G2L["15"] = Instance.new("UIAspectRatioConstraint", G2L["2"]);
+G2L["15"]["AspectRatio"] = 1.30588;
+
+
+-- StarterGui.Kaka.ImageLabel.ScrollingFrame
+G2L["16"] = Instance.new("ScrollingFrame", G2L["2"]);
+G2L["16"]["Active"] = true;
+G2L["16"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["16"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["16"]["AutomaticCanvasSize"] = Enum.AutomaticSize.Y;
+G2L["16"]["Size"] = UDim2.new(0, 322, 0, 218);
+G2L["16"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["16"]["Position"] = UDim2.new(0.49914, 0, 0.5587, 0);
+G2L["16"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["16"]["ScrollBarThickness"] = 10;
+G2L["16"]["BackgroundTransparency"] = 0.5;
+
+
+-- StarterGui.Kaka.ImageLabel.ScrollingFrame.UICorner
+G2L["17"] = Instance.new("UICorner", G2L["16"]);
+G2L["17"]["CornerRadius"] = UDim.new(0, 0);
+
+
+-- StarterGui.Kaka.ImageLabel.ScrollingFrame.UIListLayout
+G2L["18"] = Instance.new("UIListLayout", G2L["16"]);
+G2L["18"]["Padding"] = UDim.new(0, 20);
+G2L["18"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- StarterGui.Kaka.ImageLabel.ScrollingFrame.Keys
+G2L["19"] = Instance.new("TextButton", G2L["16"]);
+G2L["19"]["BorderSizePixel"] = 0;
+G2L["19"]["TextSize"] = 14;
+G2L["19"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["19"]["BackgroundColor3"] = Color3.fromRGB(65, 0, 255);
+G2L["19"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["19"]["Size"] = UDim2.new(0, 54, 0, 50);
+G2L["19"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["19"]["Text"] = [[]];
+G2L["19"]["Name"] = [[Keys]];
+
+
+-- StarterGui.Kaka.ImageLabel.ScrollingFrame.Keys.UICorner
+G2L["1a"] = Instance.new("UICorner", G2L["19"]);
+
+
+
+-- StarterGui.Kaka.ImageLabel.ScrollingFrame.Keys.UIStroke
+G2L["1b"] = Instance.new("UIStroke", G2L["19"]);
+G2L["1b"]["Thickness"] = 4;
+G2L["1b"]["Color"] = Color3.fromRGB(113, 113, 113);
+G2L["1b"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+
+-- StarterGui.Kaka.ImageLabel.ScrollingFrame.Keys.TextLabel
+G2L["1c"] = Instance.new("TextLabel", G2L["19"]);
+G2L["1c"]["TextWrapped"] = true;
+G2L["1c"]["BorderSizePixel"] = 0;
+G2L["1c"]["TextSize"] = 14;
+G2L["1c"]["TextScaled"] = true;
+G2L["1c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1c"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1c"]["BackgroundTransparency"] = 1;
+G2L["1c"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["1c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1c"]["Text"] = [[Выделять ключи и ящики с ключами]];
+G2L["1c"]["Position"] = UDim2.new(1.25926, 0, 0, 0);
+
+
+-- StarterGui.Kaka.ImageLabel.ScrollingFrame.Doors
+G2L["1d"] = Instance.new("TextButton", G2L["16"]);
+G2L["1d"]["BorderSizePixel"] = 0;
+G2L["1d"]["TextSize"] = 14;
+G2L["1d"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1d"]["BackgroundColor3"] = Color3.fromRGB(65, 0, 255);
+G2L["1d"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1d"]["Size"] = UDim2.new(0, 54, 0, 50);
+G2L["1d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1d"]["Text"] = [[]];
+G2L["1d"]["Name"] = [[Doors]];
+
+
+-- StarterGui.Kaka.ImageLabel.ScrollingFrame.Doors.UICorner
+G2L["1e"] = Instance.new("UICorner", G2L["1d"]);
+
+
+
+-- StarterGui.Kaka.ImageLabel.ScrollingFrame.Doors.UIStroke
+G2L["1f"] = Instance.new("UIStroke", G2L["1d"]);
+G2L["1f"]["Thickness"] = 4;
+G2L["1f"]["Color"] = Color3.fromRGB(113, 113, 113);
+G2L["1f"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+
+-- StarterGui.Kaka.ImageLabel.ScrollingFrame.Doors.TextLabel
+G2L["20"] = Instance.new("TextLabel", G2L["1d"]);
+G2L["20"]["TextWrapped"] = true;
+G2L["20"]["BorderSizePixel"] = 0;
+G2L["20"]["TextSize"] = 14;
+G2L["20"]["TextScaled"] = true;
+G2L["20"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["20"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["20"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["20"]["BackgroundTransparency"] = 1;
+G2L["20"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["20"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["20"]["Text"] = [[Выделять двери]];
+G2L["20"]["Position"] = UDim2.new(1.25926, 0, 0, 0);
+
+
+-- StarterGui.Kaka.ImageLabel.ScrollingFrame.Other
+G2L["21"] = Instance.new("TextButton", G2L["16"]);
+G2L["21"]["BorderSizePixel"] = 0;
+G2L["21"]["TextSize"] = 14;
+G2L["21"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["21"]["BackgroundColor3"] = Color3.fromRGB(65, 0, 255);
+G2L["21"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["21"]["Size"] = UDim2.new(0, 54, 0, 50);
+G2L["21"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["21"]["Text"] = [[]];
+G2L["21"]["Name"] = [[Other]];
+
+
+-- StarterGui.Kaka.ImageLabel.ScrollingFrame.Other.UICorner
+G2L["22"] = Instance.new("UICorner", G2L["21"]);
+
+
+
+-- StarterGui.Kaka.ImageLabel.ScrollingFrame.Other.UIStroke
+G2L["23"] = Instance.new("UIStroke", G2L["21"]);
+G2L["23"]["Thickness"] = 4;
+G2L["23"]["Color"] = Color3.fromRGB(113, 113, 113);
+G2L["23"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+
+-- StarterGui.Kaka.ImageLabel.ScrollingFrame.Other.TextLabel
+G2L["24"] = Instance.new("TextLabel", G2L["21"]);
+G2L["24"]["TextWrapped"] = true;
+G2L["24"]["BorderSizePixel"] = 6;
+G2L["24"]["TextSize"] = 14;
+G2L["24"]["TextScaled"] = true;
+G2L["24"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["24"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["24"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["24"]["BackgroundTransparency"] = 1;
+G2L["24"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["24"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["24"]["Text"] = [[Выделять остальное(ящики, столы, сундуки и т.д.)]];
+G2L["24"]["Position"] = UDim2.new(1.25926, 0, 0, 0);
+
+
+-- StarterGui.Kaka.ImageLabel.ScrollingFrame.Text
+G2L["25"] = Instance.new("TextButton", G2L["16"]);
+G2L["25"]["BorderSizePixel"] = 0;
+G2L["25"]["TextSize"] = 14;
+G2L["25"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["25"]["BackgroundColor3"] = Color3.fromRGB(65, 0, 255);
+G2L["25"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["25"]["Size"] = UDim2.new(0, 54, 0, 50);
+G2L["25"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["25"]["Text"] = [[]];
+G2L["25"]["Name"] = [[Text]];
+
+
+-- StarterGui.Kaka.ImageLabel.ScrollingFrame.Text.UICorner
+G2L["26"] = Instance.new("UICorner", G2L["25"]);
+
+
+
+-- StarterGui.Kaka.ImageLabel.ScrollingFrame.Text.UIStroke
+G2L["27"] = Instance.new("UIStroke", G2L["25"]);
+G2L["27"]["Thickness"] = 4;
+G2L["27"]["Color"] = Color3.fromRGB(113, 113, 113);
+G2L["27"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+
+-- StarterGui.Kaka.ImageLabel.ScrollingFrame.Text.TextLabel
+G2L["28"] = Instance.new("TextLabel", G2L["25"]);
+G2L["28"]["TextWrapped"] = true;
+G2L["28"]["BorderSizePixel"] = 0;
+G2L["28"]["TextSize"] = 14;
+G2L["28"]["TextScaled"] = true;
+G2L["28"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["28"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["28"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["28"]["BackgroundTransparency"] = 1;
+G2L["28"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["28"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["28"]["Text"] = [[Текстовое оповещение о сущностях]];
+G2L["28"]["Position"] = UDim2.new(1.25926, 0, 0, 0);
+
+
+-- StarterGui.Kaka.ImageLabel.ScrollingFrame.Hides
+G2L["29"] = Instance.new("TextButton", G2L["16"]);
+G2L["29"]["BorderSizePixel"] = 0;
+G2L["29"]["TextSize"] = 14;
+G2L["29"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["29"]["BackgroundColor3"] = Color3.fromRGB(65, 0, 255);
+G2L["29"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["29"]["Size"] = UDim2.new(0, 54, 0, 50);
+G2L["29"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["29"]["Text"] = [[]];
+G2L["29"]["Name"] = [[Hides]];
+
+
+-- StarterGui.Kaka.ImageLabel.ScrollingFrame.Hides.UICorner
+G2L["2a"] = Instance.new("UICorner", G2L["29"]);
+
+
+
+-- StarterGui.Kaka.ImageLabel.ScrollingFrame.Hides.UIStroke
+G2L["2b"] = Instance.new("UIStroke", G2L["29"]);
+G2L["2b"]["Thickness"] = 4;
+G2L["2b"]["Color"] = Color3.fromRGB(113, 113, 113);
+G2L["2b"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+
+-- StarterGui.Kaka.ImageLabel.ScrollingFrame.Hides.TextLabel
+G2L["2c"] = Instance.new("TextLabel", G2L["29"]);
+G2L["2c"]["TextWrapped"] = true;
+G2L["2c"]["BorderSizePixel"] = 0;
+G2L["2c"]["TextSize"] = 14;
+G2L["2c"]["TextScaled"] = true;
+G2L["2c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2c"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["2c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2c"]["BackgroundTransparency"] = 1;
+G2L["2c"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["2c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2c"]["Text"] = [[Выделять шкафы и кровати]];
+G2L["2c"]["Position"] = UDim2.new(1.25926, 0, 0, 0);
+
+
+-- StarterGui.Kaka.Frame
+G2L["2d"] = Instance.new("Frame", G2L["1"]);
+G2L["2d"]["Interactable"] = false;
+G2L["2d"]["BorderSizePixel"] = 0;
+G2L["2d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2d"]["AnchorPoint"] = Vector2.new(1, 1);
+G2L["2d"]["Size"] = UDim2.new(0, 322, 0, 693);
+G2L["2d"]["Position"] = UDim2.new(1.00115, 0, 0.99928, 0);
+G2L["2d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2d"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.Kaka.Frame.UIListLayout
+G2L["2e"] = Instance.new("UIListLayout", G2L["2d"]);
+G2L["2e"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Right;
+G2L["2e"]["VerticalAlignment"] = Enum.VerticalAlignment.Bottom;
+G2L["2e"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- StarterGui.Kaka.Frame.Frame
+G2L["2f"] = Instance.new("Frame", G2L["2d"]);
+G2L["2f"]["Visible"] = false;
+G2L["2f"]["BorderSizePixel"] = 0;
+G2L["2f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2f"]["Size"] = UDim2.new(1.003, 0, 0.12, 0);
+G2L["2f"]["Position"] = UDim2.new(-0.00316, 0, 0.85968, 0);
+G2L["2f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- StarterGui.Kaka.Frame.Frame.D
+G2L["30"] = Instance.new("TextLabel", G2L["2f"]);
+G2L["30"]["TextWrapped"] = true;
+G2L["30"]["BorderSizePixel"] = 0;
+G2L["30"]["TextSize"] = 14;
+G2L["30"]["TextScaled"] = true;
+G2L["30"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["30"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["30"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["30"]["Size"] = UDim2.new(0, 200, 0, 41);
+G2L["30"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["30"]["Text"] = [[Направляется  к вам]];
+G2L["30"]["Name"] = [[D]];
+G2L["30"]["Position"] = UDim2.new(0.37172, 0, 0.49596, 0);
+
+
+-- StarterGui.Kaka.Frame.Frame.N
+G2L["31"] = Instance.new("TextLabel", G2L["2f"]);
+G2L["31"]["TextWrapped"] = true;
+G2L["31"]["BorderSizePixel"] = 0;
+G2L["31"]["TextSize"] = 14;
+G2L["31"]["TextScaled"] = true;
+G2L["31"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["31"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["31"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["31"]["Size"] = UDim2.new(0, 200, 0, 38);
+G2L["31"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["31"]["Text"] = [[Раш]];
+G2L["31"]["Name"] = [[N]];
+G2L["31"]["Position"] = UDim2.new(0.37172, 0, 0, 0);
+
+
+-- StarterGui.Kaka.Frame.Frame.Image
+G2L["32"] = Instance.new("ImageLabel", G2L["2f"]);
+G2L["32"]["BorderSizePixel"] = 0;
+G2L["32"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["32"]["Image"] = [[rbxassetid://10892995976]];
+G2L["32"]["Size"] = UDim2.new(0, 100, 0, 98);
+G2L["32"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["32"]["Name"] = [[Image]];
+G2L["32"]["Position"] = UDim2.new(-0.00062, 0, 0, 0);
+
+
+-- StarterGui.Kaka.Frame.Frame.UIAspectRatioConstraint
+G2L["33"] = Instance.new("UIAspectRatioConstraint", G2L["2f"]);
+G2L["33"]["AspectRatio"] = 3.88367;
+G2L["33"]["AspectType"] = Enum.AspectType.ScaleWithParentSize;
+
+
+-- StarterGui.Kaka.Frame.UIAspectRatioConstraint
+G2L["34"] = Instance.new("UIAspectRatioConstraint", G2L["2d"]);
+G2L["34"]["AspectRatio"] = 0.46465;
+
+
+-- StarterGui.Kaka.OpenButton
+G2L["35"] = Instance.new("TextButton", G2L["1"]);
+G2L["35"]["BorderSizePixel"] = 0;
+G2L["35"]["TextSize"] = 14;
+G2L["35"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["35"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["35"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["35"]["Size"] = UDim2.new(0, 55, 0, 55);
+G2L["35"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["35"]["Text"] = [[Открыть]];
+G2L["35"]["Name"] = [[OpenButton]];
+G2L["35"]["Visible"] = false;
+G2L["35"]["Position"] = UDim2.new(0.17267, 99, 0.18841, -7);
+
+
+-- StarterGui.Kaka.OpenButton.LocalScript
+G2L["36"] = Instance.new("LocalScript", G2L["35"]);
+
+
+
+-- StarterGui.Kaka.OpenButton.UICorner
+G2L["37"] = Instance.new("UICorner", G2L["35"]);
+
+
+
+-- StarterGui.Kaka.ImageLabel.LocalScript
+local function C_3()
+local script = G2L["3"];
+	
+	local SEARCH_WORD = "side"
+	local textspam = true
+	local doorhghtlight = true
+	local otherhighlight = true
+	local keyhighlight = true
+	local hidehighlight = true
+	
+	local function changecolor(val, button)
+		if val == true then
+			button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		else
+			button.BackgroundColor3 = Color3.fromRGB(64, 0, 255)
+		end
+		val = not val
+		return val
+	end
+	
+	for i, button in pairs(script.Parent:WaitForChild("ScrollingFrame"):GetDescendants()) do
+		if button.Name == "Other" then
+			button.MouseButton1Click:Connect(function()
+				otherhighlight = changecolor(otherhighlight, button)
+			end)
+		elseif button.Name == "Keys" then
+			button.MouseButton1Click:Connect(function()
+				keyhighlight = changecolor(keyhighlight, button)
+			end)
+		elseif button.Name == "Hides" then
+			button.MouseButton1Click:Connect(function()
+				hidehighlight = changecolor(hidehighlight, button)
+			end)
+		elseif button.Name == "Doors" then
+			button.MouseButton1Click:Connect(function()
+				doorhghtlight = changecolor(doorhghtlight, button)
+			end)
+		elseif button.Name == "Text" then
+			button.MouseButton1Click:Connect(function()
+				textspam = changecolor(textspam, button)
+			end)
+		end
+	end
+	
+	
+	local List = game.Players.LocalPlayer.PlayerGui.Kaka.Frame
+	local cool = List.Frame
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.3 , Enum.EasingStyle.Cubic, Enum.EasingDirection.Out)
+	
+	local function playtween(image, name, description)
+		local clone = cool:Clone()
+		clone.Parent = List
+		clone.Size = UDim2.new(0, 0,0.12, 0)
+		clone.Image.Image = image
+		clone.N.Text = name
+		clone.D.Text = description
+		local tween = tweenService:Create(clone, tweenInfo, {Size = UDim2.new(1, 0,0.12, 0)})
+		local tween2 = tweenService:Create(clone, tweenInfo, {Size = UDim2.new(0, 0,0.12, 0)})
+		clone.Visible = true
+		tween:Play()
+		task.wait(5)
+		tween2:Play()
+		task.wait(0.3)
+		clone:Destroy()
+	end
+	
+	
+	local function highlight(object, color)
+		if not object:FindFirstChild("Highlight") then
+			local hl = Instance.new("Highlight")
+			hl.FillColor = color
+			hl.OutlineTransparency = 0.8
+			hl.Parent = object
+		end
+	end
+	
+	workspace.ChildAdded:Connect(function(child)
+		if not textspam then return end
+		if child.Name == "RushMoving" then
+			task.spawn(playtween, "rbxassetid://10892995976", "Rush", "Направляется в вашу сторону")	
+		elseif child.Name == "Eyes" then
+			task.spawn(playtween, "rbxassetid://10865377903", "Glaza", "Находятся в этой комнате")
+		elseif child.Name == "AmbushMoving" then
+			task.spawn(playtween, "rbxassetid://10722835155", "Ambush", "Направляeтся в вашу сторону")
+		end
+	end)
+	
+	task.spawn(function()
+		while task.wait(1.5) do 
+	
+	
+			local currentRooms = workspace:FindFirstChild("CurrentRooms")
+			if not currentRooms then continue end
+	
+	
+			local rooms = currentRooms:GetChildren()
+			for _, room in ipairs(rooms) do
+	
+	
+				if not room or not room:IsDescendantOf(workspace) then continue end
+	
+	
+				local name = room.Name
+	
+	
+	
+	
+				local door = room:FindFirstChild("Door")
+	
+				if door and room.Name ~= "50" and doorhghtlight == true then
+	
+					local collisionPart = door:FindFirstChild("Collision")
+					if collisionPart and collisionPart.CanCollide == true then
+						highlight(door, Color3.fromRGB(255, 0, 0))
+					else
+						highlight(door, Color3.fromRGB(30, 0, 255)) 
+					end
+				end 
+	
+				local succes, err = pcall(function()
+					if room.Name == "50" then
+						local assets = room:FindFirstChild("Assets")
+						local shelves = assets and assets:FindFirstChild("Bookshelves1")
+	
+	
+						local figureSetup = room:FindFirstChild("FigureSetup")
+						local figure = figureSetup and figureSetup:FindFirstChild("FigureRig")
+						if figure then
+							highlight(figure, Color3.fromRGB(255, 0, 0)) 
+						end
+	
+						if shelves then
+							for _, shelf in ipairs(shelves:GetChildren()) do
+								local book = shelf:FindFirstChild("LiveHintBook")
+								if book then
+									highlight(book, Color3.fromRGB(76, 52, 255)) 
+								end
+							end
+						end
+					end
+				end)
+	
+	
+				local assetsFolder = room:FindFirstChild("Assets")
+	
+	
+				if assetsFolder then
+					for _, asset in ipairs(assetsFolder:GetChildren()) do
+						local ward = asset:FindFirstChild("DrawerContainer")
+	
+						for _, subAsset2 in ipairs(asset:GetDescendants()) do
+							if subAsset2 and subAsset2.Name == "KeyObtain" and keyhighlight == true and not subAsset2.Parent.Name == "DrawerContainer" and not subAsset2.Parent.Name == "Table" then
+								highlight(subAsset2, Color3.fromRGB(30, 0, 255))
+							end
+						end
+	
+						if asset.Name == "Wardrobe" and hidehighlight == true then
+							highlight(asset, Color3.fromRGB(0, 255, 21))
+						elseif asset:FindFirstChild("GoldPile") and otherhighlight == true then
+							highlight(asset.GoldPile, Color3.fromRGB(255, 170, 0))
+						elseif asset:FindFirstChild("KeyObtain") and keyhighlight == true then
+							highlight(asset.KeyObtain, Color3.fromRGB(30, 0, 255))
+						elseif ward then
+							local success = false
+							local content = asset:GetDescendants()
+							for i, babaka in ipairs(content) do
+								if babaka.Name == "KeyObtain" and keyhighlight == true then success = true end
+								if success then
+									success = true
+									highlight(asset, Color3.fromRGB(30, 0, 255))
+									break
+								end
+							end
+							if success ~= true then
+								highlight(asset, Color3.fromRGB(255, 0, 0))
+							end
+						elseif asset.Name == "KeyObtain" and keyhighlight == true then
+							highlight(asset, Color3.fromRGB(30, 0, 255))
+						elseif asset:FindFirstChild("Bandage") and otherhighlight == true then
+							highlight(asset.Bandage, Color3.fromRGB(255, 0, 0))
+						elseif asset:FindFirstChild("LeverForGate") and otherhighlight == true then
+							highlight(asset, Color3.fromRGB(255, 0, 0))
+						elseif asset.Name == "Bed" and hidehighlight == true then
+							highlight(asset, Color3.fromRGB(0, 255, 21))
+						elseif asset.Name == "LeverForGate" and otherhighlight == true then
+							highlight(asset, Color3.fromRGB(255, 0, 0))
+						elseif asset:FindFirstChild("Smoothie") and otherhighlight == true then
+							highlight(asset.Smoothie, Color3.fromRGB(255, 0, 0))
+	
+	
+	
+	
+						elseif string.find(string.lower(asset.Name), SEARCH_WORD) then
+	
+							local subAssets = asset:FindFirstChild("Assets") or asset
+	
+							for _, subAsset in ipairs(subAssets:GetChildren()) do
+								if subAsset.Name == "Wardrobe" and hidehighlight == true then
+									highlight(subAsset, Color3.fromRGB(0, 255, 21))
+								elseif subAsset.Name == "Bed" and hidehighlight == true then
+									highlight(subAsset, Color3.fromRGB(0, 255, 21))
+								elseif subAsset:FindFirstChild("KeyObtain") and keyhighlight == true then
+									highlight(subAsset.KeyObtain, Color3.fromRGB(30, 0, 255))
+								elseif subAsset:FindFirstChild("DrawerContainer") and otherhighlight == true then
+									highlight(subAsset, Color3.fromRGB(255, 0, 0))
+								elseif subAsset.Name == "ChestBoxLocked" and otherhighlight == true then
+									highlight(subAsset, Color3.fromRGB(255, 170, 0))
+								elseif subAsset.Name == "ChestBox" and otherhighlight == true then
+									highlight(subAsset, Color3.fromRGB(255, 170, 0))
+								end
+							end
+						end
+	
+					end
+				end
+				for i, this in ipairs(room:GetChildren()) do
+					if string.find(string.lower(this.Name), SEARCH_WORD) then
+						local subAssets = this:FindFirstChild("Assets") or this 
+						for _, subAsset in ipairs(subAssets:GetChildren()) do
+							if subAsset.Name == "Wardrobe" and hidehighlight == true then
+								highlight(subAsset, Color3.fromRGB(0, 255, 21))
+							elseif subAsset:FindFirstChild("KeyObtain") and keyhighlight == true then
+								highlight(subAsset.KeyObtain, Color3.fromRGB(30, 0, 255))
+							elseif subAsset.Name == "Bed" and hidehighlight == true then
+								highlight(subAsset, Color3.fromRGB(0, 255, 21))
+							elseif subAsset:FindFirstChild("DrawerContainer") and otherhighlight == true then
+								highlight(subAsset, Color3.fromRGB(255, 0, 0))
+							elseif subAsset.Name == "ChestBoxLocked" and otherhighlight == true then
+								highlight(subAsset, Color3.fromRGB(255, 170, 0))
+							elseif subAsset.Name == "ChestBox" and otherhighlight == true then
+								highlight(subAsset, Color3.fromRGB(255, 170, 0))
+							elseif subAsset.Name == "KeyObtain" and keyhighlight == true then
+								highlight(subAsset, Color3.fromRGB(30, 0, 255))
+							end
+						end
+					end
+				end
+			end
+		end
+	end)
+end;
+task.spawn(C_3);
+-- StarterGui.Kaka.ImageLabel.Break.LocalScript
+local function C_a()
+local script = G2L["a"];
+	local button = script.Parent
+	
+	
+	button.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent:Destroy()
+	end)
+end;
+task.spawn(C_a);
+-- StarterGui.Kaka.ImageLabel.Close.LocalScript
+local function C_12()
+local script = G2L["12"];
+	local button = script.Parent
+	
+	
+	button.MouseButton1Click:Connect(function()
+		button.Parent.Visible = false
+		button.Parent.Parent.OpenButton.Visible = true
+	end)
+end;
+task.spawn(C_12);
+-- StarterGui.Kaka.OpenButton.LocalScript
+local function C_36()
+local script = G2L["36"];
+	local button = script.Parent
+	local gui = button.Parent.ImageLabel
+	
+	button.MouseButton1Click:Connect(function()
+		gui.Visible = true
+		button.Visible = false
+	end)
+end;
+task.spawn(C_36);
+
+return G2L["1"], require;
